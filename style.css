@@ -75,14 +75,16 @@ img {
 
 @media screen and (max-width: 420px){
 
-  #lezioni .row>.left,  #lezioni .row>.right,  #steps .row>.left,  #steps .row>.central,  #steps .row>.right {
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
     width: 96%;
     margin: 0 2%;
-  }
-
-  #why .row>.first,  #why .row>.second,  #why .row>.third {
-    width: 100%;
-    margin-top: 0;
   }
 
   .container{
